@@ -1,0 +1,80 @@
+---
+title: "STA6235 Week 5"
+author: "Your Name Here"
+format: 
+  html:
+    self-contained: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: true
+editor: source
+---
+
+## Tuesday, September 19
+
+1. Show that the Gamma distribution is in the exponential family. 
+
+## Thursday, September 21
+
+Consider the Jackson Heart Study data from class. 
+
+2. Download the data from Canvas and add to your `week-05-gamma` folder, then call it in here.
+
+```{r}
+
+```
+
+3. Create a variable called *smoking* that combines *currentSmoker* (1 = current smoker, 0 = not current smoker) and *everSmoker* (1 = has smoked at least 200 cigarettes in their lifetime, 0 = has not smoked more than 200 cigarettes).
+
+```{r}
+
+```
+
+4. Model HbA1c (*HbA1c*) as a function of age (*age*), waist circumference (cm; *waist*), hypertension medication use (*BPmeds*; 1 = takes blood pressure lowering medication, 0 = does not take blood pressure lowering drugs), the interaction between age and hypertension medication use, and the interaction between age and smoking status. Remember to report the final model
+
+```{r}
+
+```
+
+5. Use the appropriate hypothesis test to determine if the interaction between age and smoking status is significant. Test at the $\alpha=0.05$ level. While you do not need to formally typeset the test results, you must state if it is significant and what statistical justification you have to make that statement.
+
+```{r}
+
+```
+
+6. Use the appropriate hypothesis test to determine if the interaction between age and hypertension medication use is significant. Test at the $\alpha=0.05$ level. While you do not need to formally typeset the test results, you must state if it is significant and what statistical justification you have to make that statement.
+
+```{r}
+
+```
+
+7. Construct a final model that includes all main effects and only *significant* interaction terms.
+
+```{r}
+
+```
+
+8. Provide appropriate interpretations for the slopes in your final model. In the event that an interaction is in your model, please plug in *age* = 45 so that you can interpret the other slopes, skipping the interpretation for age.
+
+
+
+
+
+9. Construct a graph to help you explain your final model to your collaborator. This graph should have *age* on the *x*-axis, *HbA1c* on the *y*-axis, with at least one line of your choosing.
+
+```{r}
+
+```
+
+10. Did we need to use Gamma regression? Construct your final model under the normal distribution and assess necessary assumptions. Remember to draw a conclusion about the necessity of the Gamma distribution.
+
+```{r}
+
+```
+
+
+
+
+
