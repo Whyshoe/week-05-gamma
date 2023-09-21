@@ -26,7 +26,7 @@ Consider the Jackson Heart Study data from class.
 
 ```
 
-3. Create a variable called *smoking* that combines *currentSmoker* (1 = current smoker, 0 = not current smoker) and *everSmoker* (1 = has smoked at least 200 cigarettes in their lifetime, 0 = has not smoked more than 200 cigarettes).
+3. Create a variable called *smoking* that combines *currentSmoker* (1 = current smoker, 0 = not current smoker) and *everSmoker* (1 = has smoked at least 200 cigarettes in their lifetime, 0 = has not smoked more than 200 cigarettes) into a three level variable, where 1 = current smoker, 2 = former smoker, 3 = never smoker.
 
 ```{r}
 
